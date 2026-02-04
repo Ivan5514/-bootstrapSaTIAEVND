@@ -6,10 +6,11 @@
     <title>Valorant Champions</title>
     <meta name="description" content="Stay updated with the latest news and updates about Valorant Champions." />
     <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <header>
-        <a href="#contenido" aria-label="Ir al Contenido Principal">Saltar al contenid</a>
+        <a href="#contenido" aria-label="Ir al Contenido Principal" class="btn btn-primary">Saltar al contenid</a>
         <div class="container">
             <h1>Valorant Champions</h1>
             <p> Todas las noticias sobre las champions de valorant</p>
@@ -22,12 +23,12 @@
             </button>
             <div class="collapse navbar-collapse" id="menuPrincipal">
                         <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a class="nav-link" href="#index">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#Noticias">Noticias</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#Equipos">Equipos </a></li>
-                            <li class="nav-item"><a class="nav-link" href="#jugadores">Jugadores</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#armas">Armas</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#Historia">Historia</a></li>
+                            <li class="nav-item"><a class="btn btn-primary me-2 shadow-sm" href="#index" >Inicio</a></li>
+                            <li class="nav-item"><a class="btn btn-info me-2 shadow-sm" href="#Noticias">Noticias</a></li>
+                            <li class="nav-item"><a class="btn btn-success me-2 shadow-sm" href="#Equipos">Equipos </a></li>
+                            <li class="nav-item"><a class="btn btn-warning me-2 shadow-sm" href="#jugadores">Jugadores</a></li>
+                            <li class="nav-item"><a class="btn btn-danger me-2 shadow-sm" href="#armas">Armas</a></li>
+                            <li class="nav-item"><a class="btn btn-secondary me-2 shadow-sm" href="#Historia">Historia</a></li>
                         </ul>
                     </div> 
             </div>
@@ -101,12 +102,12 @@
 
             <!-- noticias -->
             <section>
-                <div class="container">
-                <header>
+                <div class="container py-5">
+                <header class="mb-4">
                     <h2 id="Noticias">Noticias</h2>
                 </header>
-                <div>
-                    <article aria-labelledby="titulo-noticia1">
+                <div class="row-g-3">
+                    <article  class="col-12 col-md-4" aria-labelledby="titulo-noticia1">
                         <h3 id="titulo-noticia1">Noticia 1</h3>
                         <p>Noticia sobre el torneo Valorant Champions.</p>
                     </article>
@@ -127,7 +128,7 @@
                 </header>
                 <div class="row g-3">
                     <article class="col-12 col-md-4" aria-labelledby="titulo-vandal">
-                        <div class="card h-100">
+                        <div class="card h-100 shadow-sm transition">
                             <div class="card-body">
                         <h3 class="card-tittle h5" id="titulo-vandal">Vandal</h3>
                         <p class="card-text">El Vandal es una de las armas más populares en Valorant, conocida por su alta precisión y daño consistente a cualquier distancia. Es la elección preferida por muchos jugadores profesionales en el torneo Valorant Champions.</p>
@@ -136,7 +137,7 @@
                     </article>
 
                     <article class="col-12 col-md-4" aria-labelledby="titulo-phantom">
-                        <div class="card h-100">
+                        <div class="card h-100 shadow-sm transition">
                             <div class="card-body">
                         <h3 class="card-tittle h5" id="titulo-phantom">Phantom</h3>
                         <p class="card-text">El Phantom es otra arma favorita en Valorant, apreciada por su versatilidad y capacidad para adaptarse a diferentes estilos de juego. Su silenciador integrado lo hace ideal para enfrentamientos tácticos durante los partidos del torneo.</p>
@@ -145,7 +146,7 @@
                     </article>
 
                     <article class="col-12 col-md-4" aria-labelledby="titulo-OP">
-                        <div class="card h-100">
+                        <div class="card h-100 shadow-sm transition">
                             <div class="card-body">
                         <h3 class="card-tittle h5" id="titulo-OP">OP</h3>
                         <p class="card-text">El OP es otra arma favorita en Valorant, Es un francotirador demaisado bueno ya que te permite adaptarse al campo de batalla</p>
@@ -214,20 +215,20 @@
 
                 <div class="row g-3">
                     <figure class="col-12 col-sm-6 col-md-4 mb-4">
-                        <img src="Img/Vandal del 2023.jpg" class="img-fluid rounded" alt="Imagen del torneo Valorant Champions 2024"
-                        class="img-fluid rounded">
+                        <img src="chri.jpg" class="img-fluid rounded" alt="Imagen del torneo Valorant Champions 2024"
+                        class="img-fluid rounded shadow-sm transition">
                         <figcaption class="mt-2 text-center">Vandal del 2023</figcaption> 
                     </figure>
                     
                     <figure class="col-12 col-sm-6 col-md-4 mb-4">
-                        <img src="Img/vandal del 2021.jpg" class="img-fluid rounded" alt="Imagen del torneo Valorant Champions 2024"
-                        class="img-fluid rounded">
+                        <img src="lion.png" class="img-fluid rounded" alt="Imagen del torneo Valorant Champions 2024"
+                        class="img-fluid rounded shadow-sm transition">
                         <figcaption class="mt-2 text-center">Vandal del 2021</figcaption>
                     </figure>
                     
                     <figure class="col-12 col-sm-6 col-md-4 mb-4">
-                        <img src="Img/vandal del 2025.jpg" class="img-fluid rounded" alt="Imagen del torneo Valorant Champions 2024"
-                        class="img-fluid rounded">
+                        <img src="jill.jpg" class="img-fluid rounded" alt="Imagen del torneo Valorant Champions 2024"
+                        class="img-fluid rounded shadow-sm transition">
                         <figcaption class="mt-2 text-center">Vandal del 2025</figcaption>
                     </figure>
                 </div>
@@ -239,15 +240,15 @@
             <section id="faq" aria-labelledby="titulo-faq">
                 <header class="container py-5">
                     <h2 id="titulo-faq">Preguntas Frecuentes</h2>
-                    <details class="border rounded p-3 mb-3">
+                    <details class="border rounded p-3 mb-3 shadow-sm transition">
                         <summary class="fw-semibold">¿Cuándo se celebra el próximo torneo Valorant Champions?</summary>
                         <p class="mt-2 mb-0 text-muted">El próximo torneo está programado para noviembre de 2026.</p>
                     </details>
-                    <details class="border rounded p-3 mb-3">
+                    <details class="border rounded p-3 mb-3 shadow-sm transition">
                         <summary class="fw-semibold">¿Cómo puedo ver los partidos en vivo?</summary>
                         <p class="mt-2 mb-0 text-muted">Los partidos se transmiten en vivo a través de plataformas como Twitch y YouTube.</p>
                     </details>
-                    <details class="border rounded p-3 mb-3">
+                    <details class="border rounded p-3 mb-3 shadow-sm transition">
                         <summary class="fw-semibold">¿Cuántos equipos participan en el torneo?</summary>
                         <p class="mt-2 mb-0 text-muted">Un total de 16 equipos de todo el mundo compiten en el torneo.</p>
                     </details>
@@ -301,7 +302,7 @@
         </main>
 
                 <!-- pie de  pagina -->
-                <footer class="bg-light mt-5">
+                <footer class="bg-secondary mt-5">
                     <div class="container py-4 text-center">
                         <div class="row align-items-center">
                                 <nav class="col-12 col-md-6" aria-labelledby="Enlaces del footer">
@@ -319,3 +320,4 @@
                 </footer>
                 <script src="/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
 </body>
+</html>
